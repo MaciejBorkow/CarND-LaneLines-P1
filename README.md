@@ -16,6 +16,7 @@ Project files description
 5.  **'\test_images_output'** and **'\test_videos_output'** contain images and videos after use the code from the 'P1.ipynb' on files from '/test_images' and '/test_videos'.
 6. **'environment.yml'** is a file to build python environmet with [Conda](https://conda.io/docs/) to run the code form the 'P1.ipynb'. More information about Conda and python environmets at [Udacity](https://classroom.udacity.com/courses/ud1111).
 7. **'writeup.md'** contains written report about this Project.
+8. **'writeup_images'** directory contain all images used in 'writeup.md' file.
 
 Software Requirement
 ---
