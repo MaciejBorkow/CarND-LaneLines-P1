@@ -44,11 +44,11 @@ In order to draw a single line on the left and right lanes, I created  **the dra
 1) Splitting all lines dected with Hough function into two groups a left lane and a right lane. I did it by calculating slope for each line and then fit to the on gorupe. If slope was grater than 0 it went to the right lane group otherwise to the left lane group. I added restriction on the slope value to remove missmatch lines.
 
 linear function:
-$`y = slop*x + intercept`$
+$$y = slop*x + intercept$$
 slope equation:
-$`slope = (y2 - y1) / (x2 - x1)`$
+$$slope = (y2 - y1) / (x2 - x1)$$
 intercept equation:
-$`intercept = (x1 * y2 - x2 * y1) / (x1 - x2)`$
+$$intercept = (x1 * y2 - x2 * y1) / (x1 - x2)$$
 
 2) I calculated slope and intercept for each line in the groupe and averaged this two coefficients in the groupe.
 3) Then I determinet lane linera functions formula for the each grupe.
